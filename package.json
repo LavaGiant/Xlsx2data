@@ -1,0 +1,13 @@
+{
+  "name": "xlsx2Data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "dependencies": {
+    "node-xlsx": "^0.21.0"
+  },
+  "devDependencies": {}
+}

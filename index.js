@@ -17,7 +17,7 @@ const content = contentConfig.map(sheet => {
     field.forEach((key, keyIndex) => header[key] = { label: headerInfo[keyIndex], width: (width[keyIndex] || width[width.length - 1]) + '' })
   }
   //处理data数据
-  const currentSheetList = baseTableData.slice(startRows + 1, finishRows)
+  const currentSheetList = baseTableData.slice(startRows + 1, finishRows + 1)
   const data = currentSheetList.map(dataItem => {
     const tempDataItem = {}
     field.forEach((key, keyIndex) => tempDataItem[key] = dataItem[keyIndex] || '')
